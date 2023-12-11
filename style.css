@@ -4,32 +4,21 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-style: italic;
   text-align: justify;
 }
 
 body {
   background: url(./i/картинка\ -\ Поиск\ в\ Google.jpg);
 }
+
+.body {
+  background: #fff;
+}
 h1 {
   font-weight: bold;
   text-align: center;
   color: #2bf435;
-}
-p {
-  text-indent: 20px;
-  position: relative;
-}
-p::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 16px;
-  background-color: red;
 }
 
 .container {
@@ -200,6 +189,27 @@ button {
 .btn {
   display: flex;
   justify-content: flex-end;
+}
+.commands_container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.color_h2_1 {
+  color: rgb(49, 49, 255);
+  margin-bottom: 10px;
+}
+
+.licker {
+  margin-bottom: 10px;
+}
+
+.downpar {
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 /* footer */
