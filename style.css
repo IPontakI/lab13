@@ -192,6 +192,15 @@ option {
   font-size: 24px;
   margin-top: 10px;
 }
+button {
+  color: black;
+  font-style: normal;
+  font-size: 24px;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* footer */
 .footer {
