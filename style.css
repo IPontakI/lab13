@@ -185,6 +185,13 @@ input {
   flex-direction: column;
   margin-bottom: 10px;
 }
+select,
+option {
+  color: black;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 10px;
+}
 
 /* footer */
 .footer {
