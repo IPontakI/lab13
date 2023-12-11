@@ -202,6 +202,11 @@ button {
   color: rgb(49, 49, 255);
   margin-bottom: 10px;
 }
+.color_h2_2 {
+  color: rgb(25, 25, 129);
+  margin-bottom: 10px;
+  text-align: left;
+}
 
 .licker {
   margin-bottom: 10px;
